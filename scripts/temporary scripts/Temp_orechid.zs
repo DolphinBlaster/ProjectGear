@@ -9,6 +9,12 @@ mods.botania.Orechid.removeOre(<ore:oreRuby>);
 mods.botania.Orechid.removeOre(<ore:orePeridot>);
 mods.botania.Orechid.removeOre(<ore:oreCobalt>);
 mods.botania.Orechid.removeOre(<ore:oreGalena>);
+
+// Removes Cobaltite ore from Cobalt oredictionary
+<ore:oreCobalt>.remove(<magneticraft:ores:2>);
+
+// Increased Nickel chance in orechid
+mods.botania.Orechid.addOre(<ore:oreNickel>, 12000);
  
 // Makes the oredict entry "blockMossyCobblestone" for only Moss Stone
 val myEntry = <ore:blockMossyCobblestone>;
